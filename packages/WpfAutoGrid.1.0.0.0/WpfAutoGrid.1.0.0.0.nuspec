@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2011/08/nuspec.xsd">
+  <metadata>
+    <id>WpfAutoGrid</id>
+    <version>1.0.0.0</version>
+    <title>Wpf AutoGrid</title>
+    <authors>Charles Brown</authors>
+    <owners>Charles Brown</owners>
+    <projectUrl>http://carbonrobot.github.com/wpf-autogrid</projectUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>A flexible, easy to configure drop-in replacement for the standard WPF Grid control</description>
+    <releaseNotes>Initial Release</releaseNotes>
+    <copyright>Copyright 2013</copyright>
+    <language />
+    <tags>WPF Grid XAML Extensions</tags>
+  </metadata>
+</package>

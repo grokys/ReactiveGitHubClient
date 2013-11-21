@@ -1,0 +1,19 @@
+﻿<UserControl x:Class="ReactiveGitHubClient.Views.LoginView"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:wag="clr-namespace:WpfAutoGrid;assembly=WpfAutoGrid">
+    <StackPanel>
+        <wag:AutoGrid Columns="Auto,180" ChildMargin="2">
+            <Label>User name</Label>
+            <TextBox Text="{Binding UserName, UpdateSourceTrigger=PropertyChanged}"/>
+            <Label>Password</Label>
+            <TextBox Name="Password"/>
+        </wag:AutoGrid>
+        <Button Name="okButton"
+                HorizontalAlignment="Center" 
+                MinWidth="80" 
+                Margin="4">
+            OK
+        </Button>
+    </StackPanel>
+</UserControl>
